@@ -13,6 +13,32 @@ Twitter/Github/Codepen: @5t3ph
   box-sizing: border-box;
 }
 
+.flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.name {
+  padding-right: 10rem;
+}
+
+.secret {
+  text-align: right;
+  padding-right: 1rem;
+  padding-left: 10rem;
+}
+
+.bio {
+  text-align: center;
+}
+
+main {
+  width: 100%;
+  background-color: #333;
+  color: azure;
+}
+
 /* Remove default margin */
 body,
 h1,
