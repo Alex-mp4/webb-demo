@@ -23,4 +23,10 @@ router.get('/', async function(req, res, next) {
     }
 });
 
+router.get('/test', function(request, response, next) {
+    response.render('test.njk', {
+        title: 'What the'
+    });
+})
+
 module.exports = router;

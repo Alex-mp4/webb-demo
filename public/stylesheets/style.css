@@ -39,6 +39,29 @@ main {
   color: azure;
 }
 
+img {
+  width: 10rem;
+  height: 10rem;
+}
+
+footer {
+  background-color: aqua;
+  color: #333;
+  text-align: center;
+  margin: auto;
+  height: 5rem;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  padding-right: 10rem;
+  color: aqua;
+  background-color: #333;
+}
+
 /* Remove default margin */
 body,
 h1,
